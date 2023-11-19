@@ -19,11 +19,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   Graduate Oceanographer specializing in Ocean modeling, stochastic nonlinear dynamics.
 twitter_username: username
 github_username: syed-rafat
-minimal_mistakes_skin: default
+# minimal_mistakes_skin: default
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# remote_theme: mmistakes/minimal-mistakes
+
+theme: jekyll-theme-cayman
+#remote_theme: "mmistakes/minimal-mistakes"
+remote_theme : "mmistakes/minimal-mistakes@4.24.0"
+
+minimal_mistakes_skin: "air" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -81,8 +90,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
+      # layout: single
+      # author_profile: true
       read_time: true
   # _pages
   - scope:
