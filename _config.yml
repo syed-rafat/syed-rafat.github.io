@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: syed-rafat
 minimal_mistakes_skin: default
-search: true
 
 # Build settings
 markdown: kramdown
@@ -85,9 +84,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
